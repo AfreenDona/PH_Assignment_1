@@ -71,4 +71,22 @@
     margin-right: 50px; 
     margin-top: 250px;
 }
+/* my plan section */
 
+.my-plans{
+    margin-top: 60px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+}
+.plan-contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plans{
+    text-align: center;
+}
