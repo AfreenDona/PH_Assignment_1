@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+   width: 100%;
+   height: 100vh;
+   background-image: url("../images/banner/banner2.png");
+}
+.banner{
+    margin-left: 845px;
+    margin-right: 230px;
+    padding-top: 216px;
+    text-align: right;
+    font-weight: 800;
+    font-size: 35px;
+    color: #151414;
+ }
+
+ .text{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    color: #444343;
+ }
+ .contact{
+       text-align: center;
+       padding: 20px 20px;
+       font-weight: 600;
+       font-size: 18px;
+       background-color: orangered;
+       color: #FFFFFF;
+       border: 0;
+ }
+
+ .button{
+    margin-left: 1210px;
+    margin-right: 230px;
+    margin-top: 32px;
+}
+/* failure section style */
+
+.section-texts{
+    margin-left: 862px;
+    margin-right: 400px;
+    padding-top: 30px;
+    text-align: left;
+    align-items: right;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.text-part{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    color: #444343;
+}
+.text-list{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    color: #444343;
+}
+.my-failure{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/Rio-bird.jpg");
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    margin-right: 50px; 
+    margin-top: 250px;
+}
+
