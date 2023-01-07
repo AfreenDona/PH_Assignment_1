@@ -84,7 +84,7 @@
 }
 .plan-contents{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .plans{
