@@ -31,6 +31,7 @@
        background-color: orangered;
        color: #FFFFFF;
        border: 0;
+       border-radius: 5px;
  }
 
  .button{
@@ -41,8 +42,8 @@
 /* failure section style */
 
 .section-texts{
-    margin-left: 862px;
-    margin-right: 400px;
+    padding-left: 862px;
+    padding-right: 400px;
     padding-top: 30px;
     text-align: left;
     align-items: right;
@@ -67,15 +68,15 @@
     height: 100vh;
     background-image: url("../images/Rio-bird.jpg");
     background-repeat: no-repeat;
+    padding-right: 250px;
     margin-left: 250px;
     margin-right: 50px; 
     margin-top: 250px;
+    gap: 87px;
 }
 /* my plan section */
 
-.my-plans{
-    margin-top: 60px;
-}
+
 .section-title{
     font-weight: 700;
     font-size: 40px;
@@ -84,19 +85,22 @@
 }
 .plan-contents{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 60px 250px;
 }
 
 .plans{
     text-align: center;
 }
 
+/* gradient section */
 .title{
     font-weight: 2000;
     font-size: 50px;
     color: #FFFFFF;
     padding-top: 60px;
-    margin-left: 40px;
+    padding-right: 900px;
+    margin-left: 60px;
 }
 .call-now{
     text-align: center;
@@ -108,7 +112,7 @@
        border-radius: 5px;
        border: 0;
        margin-top: 20px;
-       margin-left: 40px;
+       margin-left: 60px;
 }
 .gradient-part{
     width: 100%;
@@ -117,6 +121,80 @@
     background-repeat: no-repeat;
     margin-left: 250px;
     margin-right: 250px; 
-    margin-top: 250px;
-    
+    margin-top: 250px;   
+}
+/* Hobby section */
+.Hobby-title{
+    font-weight: 2000;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.hobbies-contents{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 130px;
+}
+
+.hobbies{
+    text-align: center;
+}
+.Hobby-section{
+    background-color: skyblue;
+    margin: 20px 250px;
+}
+
+/* contact section */
+.contact-section{
+    background-color: black;
+    color: #FFFFFF;
+    display: flex;
+    gap: 330px;
+    padding: 130px 200px;
+}
+.details{
+    margin-top: 24px;
+}
+#email{
+    font-weight: 500;
+    background-color: black;
+    font-size: 18px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+.future{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.input{
+    width: 325px;
+    height: 64px;
+    margin-top: 30px;
+}
+
+.subscribe-btn{
+       text-align: center;
+       padding: 20px 20px;
+       font-weight: 700;
+       font-size: 18px;
+       background-color: #FFFFFF;
+       color: orangered;
+       border-radius: 5px;
+       border: 0;
+       margin-top: 16px;
+}
+
+.subscribe-btn:hover {
+  background-color:burlywood;
+}
+.contact:hover {
+    background-color: coral;
+}
+.call-now:hover {
+    background-color: burlywood;
 }
